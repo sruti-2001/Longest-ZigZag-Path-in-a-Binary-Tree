@@ -5,9 +5,9 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
-    def longestZigZag(self, root: Optional[TreeNode]) -> int:
-         self.pathLength = 0
+    class Solution:
+        def longestZigZag(self, root: Optional[TreeNode]) -> int:
+             self.pathLength = 0
         
          def dfs(node, goLeft, steps):
             if node:
